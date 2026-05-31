@@ -1,0 +1,32 @@
+# Core deep learning framework
+# Please install the CUDA-matched PyTorch version separately if needed.
+# Example for CUDA 11.8:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical computing and image processing
+numpy>=1.23.0
+scipy>=1.9.0
+opencv-python>=4.7.0
+pillow>=9.0.0
+matplotlib>=3.6.0
+imageio>=2.25.0
+scikit-image>=0.20.0
+
+# Training utilities
+tqdm>=4.60.0
+einops>=0.6.0
+timm>=0.9.0
+thop>=0.1.1
+yacs>=0.1.8
+
+# Mamba modules
+mamba-ssm>=2.0.0
+causal-conv1d>=1.0.0
+
+# Optional but used by some helper scripts
+h5py>=3.8.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+tensorboardX>=2.6
